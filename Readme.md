@@ -12,5 +12,5 @@ docker push fpultar/actions-image-armv8:latest
 ```bash
 export REPO=...
 export TOKEN=...
-docker compose up
+docker compose up --detach
 ```
