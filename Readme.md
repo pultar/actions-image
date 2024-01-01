@@ -7,7 +7,7 @@ docker push fpultar/actions-image-armv8:latest
 
 ## Start the runner
 
-** Don't forget to change the image name in `compose.yml`
+** Don't forget to change the image name in `compose.yml` **
 
 ```bash
 export REPO=...
