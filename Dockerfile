@@ -1,7 +1,7 @@
-FROM swift:5.9.2-jammy
+FROM ubuntu
 
-ARG RUNNER_VERSION="2.311.0"
-ARG ARCHITECTURE="arm64"
+ARG RUNNER_VERSION
+ARG ARCHITECTURE
 
 # Prevents installdependencies.sh from prompting the user and blocking the image creation
 ARG DEBIAN_FRONTEND=noninteractive

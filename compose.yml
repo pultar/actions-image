@@ -3,5 +3,5 @@ services:
     image: fpultar/actions-image-armv8:latest
     restart: always
     environment:
-      - REPO=pultar/UnitConverter
-      - TOKEN=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
+      - REPO=${REPO}
+      - TOKEN=${TOKEN}
