@@ -1,7 +1,8 @@
 services:
   runner:
-    image: fpultar/actions-image-armv8:latest
+    image: fpultar/actions-image-x64:latest
     restart: always
     environment:
       - REPO=${REPO}
       - TOKEN=${TOKEN}
+      - NAME=${NAME}

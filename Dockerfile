@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM swift:5.9.2-jammy
 
 ARG RUNNER_VERSION
 ARG ARCHITECTURE
